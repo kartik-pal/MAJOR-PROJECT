@@ -129,7 +129,7 @@ def review(text):
   pred=np.around(preds)
   print(pred[0][0])
 
-  if pred[0][0]==1:
+  if pred[0][0]==0:
     result= "It is Spam"
   else:
     result="It is not Spam" 
